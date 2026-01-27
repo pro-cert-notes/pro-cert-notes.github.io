@@ -1,5 +1,5 @@
 title: AIs Through the Looking Glass
-description: Artifical intelligence in more ways than one
+description: Artificial intelligence in more ways than one
 
 remote_theme: jekyll/minima
 plugins:
@@ -7,7 +7,6 @@ plugins:
 
 minima:
   skin: auto
-  hide_site_feed_link: true
   show_excerpts: true
   nav_pages:
     - about.md

@@ -3,4 +3,5 @@ layout: page
 title: "About"
 permalink: /about/
 ---
-Test
+
+A blog focusing on data engineering and AI.
