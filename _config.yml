@@ -4,6 +4,7 @@ description: Artificial intelligence in more ways than one
 remote_theme: jekyll/minima
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
 
 minima:
   skin: auto
