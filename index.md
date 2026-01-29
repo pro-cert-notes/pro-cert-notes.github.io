@@ -3,6 +3,8 @@ layout: home
 title: Home
 ---
 
-## Public repositories
+## Repositories
 
 {% include repo_list.html %}
+
+## Posts
