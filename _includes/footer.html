@@ -7,7 +7,8 @@
       <!-- Left column -->
       <div class="footer-col footer-col-1" style="width: calc(50% - 15px);">
         {%- unless page.url == "/" or page.url == "/index.html" or page.layout == "home" -%}
-          <h3>Recent posts</h3>
+          
+          <b>Recent posts</b><br>
           {%- assign recent_posts = site.posts | where_exp: "post", "post.url != page.url" -%}
           <ul class="post-list">
             {%- for post in recent_posts limit: 5 -%}
