@@ -6,13 +6,11 @@ plugins:
   - jekyll-feed
 
 remote_theme: jekyll/minima
+
 minima:
   skin: auto
   show_excerpts: true
   nav_pages:
     - about.md
-
-social_links:
-    - title: GitHub Repos
-      icon: github
-      url: "https://github.com/pro-cert-notes/"
+  social_links:
+    github: pro-cert-notes
