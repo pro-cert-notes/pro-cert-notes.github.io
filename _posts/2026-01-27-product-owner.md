@@ -5,6 +5,10 @@ date: 2026-01-27
 excerpt: "In an AI-driven workplace, everyone must think like a product owner: clarifying requirements, translating them into precise agent instructions with clear acceptance criteria, iterating through feedback, and applying rigorous QA. Ensuring AI-generated work delivers correct, scalable outcomes."
 ---
 
+<div align="center">
+  <img src="img/product-owner.png" width="50%">
+</div>
+
 AI didn’t just give us faster tools, it gave us teams on demand. In the modern workplace, a single person can spin up AI agents to draft proposals, analyze data, generate code, outline strategies, or design customer journeys in minutes. The catch is that speed doesn’t equal value. Value comes from knowing what to build, why to build it, and how to tell whether it’s done. That’s why a new expectation is quietly spreading across roles: we are all product owners now.
 
 Traditionally, product ownership wasn’t about writing every line of code or designing every pixel. It was about orchestrating outcomes. A product owner (PO) gathers requirements, translates needs into clear instructions, defines acceptance criteria, manages iteration, and protects quality. With AI agents producing so much of the “work product,” those PO behaviors are becoming everyone’s baseline skill set, whether you work in marketing, HR, finance, operations, or engineering.
