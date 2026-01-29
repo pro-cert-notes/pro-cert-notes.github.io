@@ -3,7 +3,6 @@ description: Artificial intelligence in more ways than one
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
 
 remote_theme: jekyll/minima
 
@@ -12,5 +11,3 @@ minima:
   show_excerpts: true
   nav_pages:
     - about.md
-  social_links:
-    github: pro-cert-notes
