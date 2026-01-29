@@ -6,7 +6,7 @@ excerpt: "In an AI-driven workplace, everyone must think like a product owner: c
 ---
 
 <div align="center">
-  <img src="img/product-owner.png" width="50%">
+  <img src="../img/product-owner.png" width="50%">
 </div>
 
 AI didn’t just give us faster tools, it gave us teams on demand. In the modern workplace, a single person can spin up AI agents to draft proposals, analyze data, generate code, outline strategies, or design customer journeys in minutes. The catch is that speed doesn’t equal value. Value comes from knowing what to build, why to build it, and how to tell whether it’s done. That’s why a new expectation is quietly spreading across roles: we are all product owners now.
