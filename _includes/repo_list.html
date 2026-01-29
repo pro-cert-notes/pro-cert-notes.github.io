@@ -1,0 +1,23 @@
+{%- assign repos = site.github.public_repositories
+  | where_exp: "r", "r.fork == false"
+  | where_exp: "r", "r.archived == false"
+  | where_exp: "r", "r.disabled == false"
+  | where_exp: "r", "r.name != site.github.repository_name"
+  | sort: "pushed_at"
+  | reverse
+-%}
+
+<ul class="repo-list">
+  {%- for repo in repos -%}
+    <li class="repo-list-item">
+      <a href="{{ repo.html_url }}">{{ repo.name }}</a>
+      {%- if repo.description and repo.description != "" -%}
+        <div class="repo-desc">{{ repo.description }}</div>
+      {%- endif -%}
+      <small class="repo-meta">
+        {%- if repo.language -%}{{ repo.language }} · {%- endif -%}
+        ★ {{ repo.stargazers_count }} · Updated {{ repo.pushed_at | date: "%Y-%m-%d" }}
+      </small>
+    </li>
+  {%- endfor -%}
+</ul>
