@@ -15,15 +15,14 @@
 
     <li class="repo-list-item">
       <a href="{{ repo.html_url }}">{{ repo.name }}</a>
-      <small> (<a href="{{ zip_url }}" rel="nofollow">Download ZIP</a>)</small>
 
       {%- if repo.description and repo.description != "" -%}
         <div class="repo-desc">{{ repo.description }}</div>
       {%- endif -%}
 
       <small class="repo-meta">
-        {%- if repo.language -%}{{ repo.language }} · {%- endif -%}
-        ★ {{ repo.stargazers_count }} · Updated {{ repo.pushed_at | date: "%Y-%m-%d" }}
+        {%- if repo.language -%}{{ repo.language }} · {%- endif -%} Updated {{ repo.pushed_at | date: "%Y-%m-%d" }} · 
+        <a href="{{ zip_url }}" rel="nofollow">Download</a>
       </small>
     </li>
   {%- endfor -%}
