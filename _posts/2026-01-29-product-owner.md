@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "We Are All Product Owners Now"
-date: 2026-01-30
+date: 2026-01-29
 excerpt: "In an AI-driven workplace, everyone must think like a product owner: clarifying requirements, translating them into precise agent instructions with clear acceptance criteria, iterating through feedback, and applying rigorous QA. Ensuring AI-generated work delivers correct, scalable outcomes."
 ---
 <p>
