@@ -11,3 +11,5 @@ minima:
   show_excerpts: true
   nav_pages:
     - about.md
+
+timezone: "Etc/GMT+8"
