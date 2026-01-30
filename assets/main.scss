@@ -1,0 +1,11 @@
+---
+---
+
+@import "minima";
+
+/* Replace broken icon-font glyph with a normal hamburger */
+.site-nav .menu-icon { font-size: 0; }
+.site-nav .menu-icon::before {
+  content: "\2630"; /* ☰ */
+  font-size: 22px;
+}
