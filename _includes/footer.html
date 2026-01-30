@@ -33,8 +33,7 @@
             | sort: "pushed_at"
             | reverse
           -%}
-
-          <ul class="repo-list" style="list-style-type: disc;">
+          <ul class="post-list" style="list-style-type: disc;">
             {%- for repo in repos limit: 5 -%}
               <li class="repo-list-item" style="margin:0; padding:0;">
                 <a href="{{ repo.html_url }}">{{ repo.name }}</a>
