@@ -5,7 +5,7 @@ date: 2026-01-29
 excerpt: "In an AI-driven workplace, everyone must think like a product owner: clarifying requirements, translating them into precise agent instructions with clear acceptance criteria, iterating through feedback, and applying rigorous QA. Ensuring AI-generated work delivers correct, scalable outcomes."
 ---
 
-<figure style="max-width:50%; margin:0 auto; text-align:center;">
+<figure style="max-width:50%; margin:1.5rem auto; text-align:center;">
     <img
         src="{{ '/img/product-owner.webp' | relative_url }}"
         alt="An office worker holding a tablet and commanding an army of robots"style="display:block; width:100%; height:auto;"
