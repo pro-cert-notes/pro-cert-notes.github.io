@@ -8,7 +8,8 @@ excerpt: "In an AI-driven workplace, everyone must think like a product owner: c
 <figure style="max-width:50%; margin:1.5rem auto; text-align:center;">
     <img
         src="{{ '/img/product-owner.webp' | relative_url }}"
-        alt="An office worker holding a tablet and commanding an army of robots"style="display:block; width:100%; height:auto;"
+        alt="An office worker holding a tablet and commanding an army of robots"
+        style="display:block; width:100%; height:auto;"
     >
     <figcaption>Image generated with ChatGPT</figcaption>
 </figure>
