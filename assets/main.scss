@@ -3,9 +3,17 @@
 
 @import "minima";
 
-/* Replace broken icon-font glyph with a normal hamburger */
-.site-nav .menu-icon { font-size: 0; }
-.site-nav .menu-icon::before {
-  content: "\2630"; /* ☰ */
-  font-size: 22px;
+/* Fix: prevent icon-font glyph from showing in the mobile menu icon */
+.site-nav .menu-icon::before,
+.site-nav .menu-icon::after {
+  content: none !important;
 }
+
+.site-nav .menu-icon {
+  font-size: 0 !important;
+}
+
+.site-nav .menu-icon svg {
+  display: inline-block !important;
+}
+
