@@ -27,6 +27,7 @@ title: Home
 {%- endif -%}
 
 ## Repositories
+
 {%- assign repos = site.github.public_repositories
   | where_exp: "r", "r.fork == false"
   | where_exp: "r", "r.archived == false"
