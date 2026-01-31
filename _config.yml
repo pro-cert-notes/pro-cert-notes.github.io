@@ -1,5 +1,6 @@
 title: AIs Through the Looking Glass
 description: Artificial intelligence in more ways than one
+permalink: /:categories/:year/:title/
 future: true
 
 plugins:
