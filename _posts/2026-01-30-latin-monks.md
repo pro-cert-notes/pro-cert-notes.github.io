@@ -17,7 +17,7 @@ excerpt: "The medieval Trivium and Quadrivium trained durable generalist skills:
 The medieval university curriculum is often caricatured as dusty and irrelevant: monks parsing Latin while the modern world races ahead. But the foundational program of the Trivium (grammar, rhetoric, logic) and Quadrivium (arithmetic, geometry, music, astronomy) was less about memorizing old texts than about cultivating a generalist operating system for the mind. In a twist the Middle Ages couldn’t have predicted, that operating system looks unusually well matched to an era where AI can perform specialist tasks on demand, yet still depends on humans to ask the right questions, evaluate answers, and decide what matters.
 
 <div class="callout callout-note">
-  <p class="callout-title">Note</p>
+  <p class="callout-title">&#9432; Note</p>
   <p>In historical sources and LLM outputs, it is critical to note that the meaning of words can diverge from assumptions and normative usage. The subjects in the Trivium and Quadrivium can be understood as follows, grammar was taught as mechanics of language, rhetoric the mechanics of communication, and logic the mechanics of thought. Arithmetic is numbers in itself, geometry is numbers in space, music is numbers in time, astronomy is numbers in space and time.</p>
 </div>
 
