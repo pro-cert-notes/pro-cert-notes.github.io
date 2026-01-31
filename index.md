@@ -1,6 +1,7 @@
 ---
 layout: home
-title:
+title: Home
+hide_title: true
 ---
 
 ## Repositories
