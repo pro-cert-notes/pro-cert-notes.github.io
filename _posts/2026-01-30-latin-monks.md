@@ -8,7 +8,7 @@ excerpt: "The medieval Trivium and Quadrivium trained durable generalist skills:
 <figure style="max-width:50%; margin:1.5rem auto; text-align:center;">
     <img
         src="{{ '/img/latin-monk.webp' | relative_url }}"
-        alt="A medieval monk riding a robotic pegasus with rockets on its wings"
+        alt="A medieval monk riding a robotic pegasus with rockets on its wings and a monastery in the background"
         style="display:block; width:100%; height:auto;"
     >
     <figcaption>Image generated with ChatGPT</figcaption>
@@ -18,7 +18,7 @@ The medieval university curriculum is often caricatured as dusty and irrelevant:
 
 <div class="callout callout-note">
   <p class="callout-title">&#9432; Note</p>
-  <p>In historical sources and LLM outputs, it is critical to note that the meaning of words can diverge from assumptions and normative usage. The subjects in the Trivium and Quadrivium can be understood as follows, grammar was taught as mechanics of language, rhetoric the mechanics of communication, and logic the mechanics of thought. Arithmetic is numbers in itself, geometry is numbers in space, music is numbers in time, astronomy is numbers in space and time.</p>
+  <p>In historical sources and LLM outputs, it is critical to note that the meaning of words can diverge from assumptions and normative usage. The subjects in the Trivium and Quadrivium can be understood as follows: grammar was taught as mechanics of language, rhetoric the mechanics of communication, and logic the mechanics of thought. Arithmetic is numbers in itself, geometry is numbers in space, music is numbers in time, astronomy is numbers in space and time.</p>
 </div>
 
 Start with the Trivium. Grammar is not merely syntax. It’s the discipline of understanding symbolic systems (language): definitions, ambiguity, context. Modern AI is powered by language interfaces. The better you are at specifying terms, supplying constraints, and noticing when a model is subtly shifting meanings, the more value you get. “Prompting” is not a new magical skill. It’s grammar applied to directing pseudo-cognition.
