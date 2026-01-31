@@ -1,3 +1,28 @@
+<style>
+  /* 1 column by default */
+  .repo-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* 2 columns on wider screens */
+  @media (min-width: 800px) {
+    .repo-list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  /* optional: keep items from adding extra vertical spacing */
+  .repo-list-item {
+    margin: 0;
+  }
+</style>
+
 {%- assign repos = site.github.public_repositories
   | where_exp: "r", "r.fork == false"
   | where_exp: "r", "r.archived == false"
