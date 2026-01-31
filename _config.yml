@@ -4,8 +4,6 @@ description: Artificial intelligence in more ways than one
 plugins:
   - jekyll-remote-theme
 
-markdown: GFM
-
 remote_theme: jekyll/minima
 
 minima:
