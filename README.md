@@ -7,6 +7,7 @@ Source repository for the pro-cert-notes GitHub Pages site. The site is a static
 * **`img/`**: images used by posts (currently `.webp`) referenced directly from Markdown.
 * **`_includes/repo_list.html`**: a custom Liquid include that iterates over `site.github.public_repositories` to render a “Repositories” section on the home page, filtering out forks/archived/disabled repos and adding a per-repo “Download ZIP” link.
 * **`_includes/footer.html`**: a custom footer that shows recent posts on non-home pages.
+* **`_sass/minima/custom-styles.scss`**: a custom stylesheet that implements GitHub Flavoured Markdown callouts
 
 ## Learn to build something similar
 * [GitHub Pages Quickstart](https://docs.github.com/en/pages/quickstart)
