@@ -16,9 +16,10 @@ excerpt: "The medieval Trivium and Quadrivium trained durable generalist skills:
 
 The medieval university curriculum is often caricatured as dusty and irrelevant: monks parsing Latin while the modern world races ahead. But the foundational program of the Trivium (grammar, rhetoric, logic) and Quadrivium (arithmetic, geometry, music, astronomy) was less about memorizing old texts than about cultivating a generalist operating system for the mind. In a twist the Middle Ages couldn’t have predicted, that operating system looks unusually well matched to an era where AI can perform specialist tasks on demand, yet still depends on humans to ask the right questions, evaluate answers, and decide what matters.
 
-> **Note**
-> In historical sources and LLM outputs, it is critical to note that the meaning of words can diverge from assumptions and normative usage. The subjects in the Trivium and Quadrivium can be understood as follows, grammar was taught as mechanics of language, rhetoric the mechanics of communication, and logic the mechanics of thought. Arithmetic is numbers in itself, geometry is numbers in space, music is numbers in time, astronomy is numbers in space and time.
-{: .callout .callout-note }
+<div class="callout callout-note">
+  <p class="callout-title">Note</p>
+    <p>In historical sources and LLM outputs, it is critical to note that the meaning of words can diverge from assumptions and normative usage. The subjects in the Trivium and Quadrivium can be understood as follows, grammar was taught as mechanics of language, rhetoric the mechanics of communication, and logic the mechanics of thought. Arithmetic is numbers in itself, geometry is numbers in space, music is numbers in time, astronomy is numbers in space and time.</p>
+</div>
 
 Start with the Trivium. Grammar is not merely syntax. It’s the discipline of understanding symbolic systems (language): definitions, ambiguity, context. Modern AI is powered by language interfaces. The better you are at specifying terms, supplying constraints, and noticing when a model is subtly shifting meanings, the more value you get. “Prompting” is not a new magical skill. It’s grammar applied to directing pseudo-cognition.
 
@@ -38,5 +39,5 @@ Astronomy blended observation with model-building under uncertainty. AI outputs 
 
 None of this implies we should resurrect medieval syllabi unchanged. The teaching material is rather outdated. But the model of education: training in language, persuasion, reasoning, number, structure, pattern, and inference. Maps neatly onto what AI amplifies. As AI makes execution cheaper, the scarcity advantage moves upstream: defining problems well, steering attention, checking validity, and integrating across domains. That is, the very generalist competence the Trivium and Quadrivium were built to produce.
 
-Are you interested in the Trivium?
+Are you interested in starting with the Trivium?
 - [https://www.amazon.com/Trivium-Liberal-Logic-Grammar-Rhetoric/dp/0967967503](https://www.amazon.com/Trivium-Liberal-Logic-Grammar-Rhetoric/dp/0967967503)
