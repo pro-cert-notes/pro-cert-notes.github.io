@@ -7,6 +7,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 remote_theme: jekyll/minima
 
@@ -15,6 +16,9 @@ minima:
   show_excerpts: true
   nav_pages:
     - about.md
+  social_links:
+    github: pro-cert-notes
+    rss: true
     
 feed:
   excerpt_only: true
