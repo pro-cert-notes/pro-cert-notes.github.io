@@ -1,1 +1,11 @@
+{%- if page.preload_image -%}
+  <link rel="preload" as="image" href="{{ page.preload_image | relative_url }}">
+{%- endif -%}
+
+{%- if page.preload_images -%}
+  {%- for img in page.preload_images -%}
+    <link rel="preload" as="image" href="{{ img | relative_url }}">
+  {%- endfor -%}
+{%- endif -%}
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" referrerpolicy="no-referrer">
