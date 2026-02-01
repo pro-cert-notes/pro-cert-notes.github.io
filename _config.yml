@@ -19,7 +19,7 @@ minima:
   social_links:
     - title: GitHub
       icon: github
-      url: "https://github.com/pro-cert-notes"
+      url: "https://github.com/pro-cert-notes?tab=repositories"
 
 feed:
   excerpt_only: true
