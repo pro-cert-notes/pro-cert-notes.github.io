@@ -7,20 +7,47 @@ permalink: /about/
 A blog focusing on data engineering and AI.
 
 ## Sitemap
-<pre>
-/&#10;
-{% assign page_urls = site.pages | map: "url" %}
-{% assign post_urls = site.posts | map: "url" %}
-{% assign urls = page_urls | concat: post_urls | uniq | sort %}
+<style>
+  .sitemap-ascii .line{
+    white-space: pre;              /* preserve ASCII indentation */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    line-height: 1.25;             /* tighter lines */
+    margin: 0;                     /* remove vertical gaps */
+    padding: 0;
+  }
+  .sitemap-ascii .path{
+    opacity: .65;
+    font-size: .9em;
+    margin-left: .5em;
+  }
+</style>
+<div class="sitemap-ascii">
+  <div class="line">└─ <a href="{{ '/' | relative_url }}">/</a></div>
 
-{% for u in urls %}
-  {% unless u == "/" or u == page.url or u == "/sitemap.xml" or u == "/feed.xml" or u contains "/assets/" %}
-    {% assign parts = u | split:'/' %}
-    {% assign depth = parts.size | minus: 3 %}
-    {% if depth < 0 %}{% assign depth = 0 %}{% endif %}
+  {%- assign pages = site.pages | sort: "url" -%}
+  {%- for p in pages -%}
+    {%- if p.url
+      and p.url != "/"
+      and p.url != page.url
+      and p.url != "/sitemap.xml"
+      and p.url != "/feed.xml"
+      and p.sitemap != false
+      and p.title
+    -%}
+      {%- assign depth = p.url | split:'/' | size | minus: 2 -%}
+      {%- if depth < 0 -%}{%- assign depth = 0 -%}{%- endif -%}
+      {%- capture indent -%}{%- for i in (1..depth) -%}│  {%- endfor -%}{%- endcapture -%}
+      <div class="line">{{ indent }}├─ <a href="{{ p.url | relative_url }}">{{ p.title | escape }}</a> <span class="path">{{ p.url }}</span></div>
+    {%- endif -%}
+  {%- endfor -%}
 
-    {% capture indent %}{% for i in (1..depth) %}│  {% endfor %}{% endcapture %}
-{{ indent }}├─ {{ u }}&#10;
-  {% endunless %}
-{% endfor %}
-</pre>
+  {%- assign posts = site.posts | sort: "url" -%}
+  {%- for post in posts -%}
+    {%- if post.url and post.sitemap != false -%}
+      {%- assign depth = post.url | split:'/' | size | minus: 2 -%}
+      {%- if depth < 0 -%}{%- assign depth = 0 -%}{%- endif -%}
+      {%- capture indent -%}{%- for i in (1..depth) -%}│  {%- endfor -%}{%- endcapture -%}
+      <div class="line">{{ indent }}├─ <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> <span class="path">{{ post.url }}</span></div>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
