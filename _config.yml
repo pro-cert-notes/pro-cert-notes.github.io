@@ -5,6 +5,7 @@ future: true
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
 
 remote_theme: jekyll/minima
 
@@ -13,3 +14,6 @@ minima:
   show_excerpts: true
   nav_pages:
     - about.md
+    
+feed:
+  excerpt_only: true
