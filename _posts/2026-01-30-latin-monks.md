@@ -3,6 +3,7 @@ layout: post
 title: "Latin Monks and Language Models"
 date: 2026-01-30
 published: true
+custom_head: <link rel="preload" as="image" href="{{ '/img/latin-monk.webp' | relative_url }}">
 excerpt: "The medieval Trivium and Quadrivium trained durable generalist skills: clear language, persuasive framing, rigorous reasoning, and mathematical model-building. These skills are spot-on for getting the best out of AI today, because they help you specify what you want, test what you’re told, and make sensible decisions about what matters."
 ---
 
