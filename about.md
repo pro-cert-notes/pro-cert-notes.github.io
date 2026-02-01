@@ -7,20 +7,7 @@ permalink: /about/
 A blog focusing on data engineering and AI.
 
 ## Sitemap
-<style>
-  .sitemap-ascii .line{
-    white-space: pre;              /* preserve ASCII indentation */
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-    line-height: 1.25;             /* tighter lines */
-    margin: 0;                     /* remove vertical gaps */
-    padding: 0;
-  }
-  .sitemap-ascii .path{
-    opacity: .65;
-    font-size: .9em;
-    margin-left: .5em;
-  }
-</style>
+
 <div class="sitemap-ascii">
   <div class="line">└─ <a href="{{ '/' | relative_url }}">/</a></div>
 
@@ -31,6 +18,7 @@ A blog focusing on data engineering and AI.
       and p.url != page.url
       and p.url != "/sitemap.xml"
       and p.url != "/feed.xml"
+      and p.url != "/404.html"
       and p.sitemap != false
       and p.title
     -%}
@@ -51,3 +39,18 @@ A blog focusing on data engineering and AI.
     {%- endif -%}
   {%- endfor -%}
 </div>
+
+<style>
+  .sitemap-ascii .line{
+    white-space: pre;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+  }
+  .sitemap-ascii .path{
+    opacity: .65;
+    font-size: .9em;
+    margin-left: .5em;
+  }
+</style>
