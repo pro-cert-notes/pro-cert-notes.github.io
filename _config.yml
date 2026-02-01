@@ -16,10 +16,6 @@ minima:
   show_excerpts: true
   nav_pages:
     - about.md
-  social_links:
-    - title: GitHub
-      icon: github
-      url: "https://github.com/pro-cert-notes?tab=repositories"
 
 feed:
   excerpt_only: true
